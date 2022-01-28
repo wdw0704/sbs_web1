@@ -7,26 +7,35 @@
 }
 
 /* 모양 */
-.ellipse { 
-    /* 여기에 작성해보세요:) */
+.ellipse { background-image: 
+         radial-gradient(ellipse,  #8a3ab9 0%  , white 50% );
+    
 }
-.circle { 
-    /* 여기에 작성해보세요:) */
+.circle { background-image: circle closest-side at 50% 50%,
+                                     #fff 0% 60% 80% 95%;
+   
 }
 
 /* 사이즈 */
-.closest-corner {
-    /* 여기에 작성해보세요:) */
+.closest-corner {  background-image:
+                     radial-gradient(closest-corner at 60% 55% , blue, green, yellow, black );
+    
 }
-.closest-side {
-    /* 여기에 작성해보세요:) */
+.closest-side {  background-image:
+    radial-gradient(closest-side at 60% 55% , blue, green, yellow, black );
+
+   
 }
 
-.farthest-corner {
-    /* 여기에 작성해보세요:) */
+.farthest-corner {  background-image:
+    radial-gradient(farthest-corner at 60% 55% , blue, green, yellow, black );
+
+    
 }
-.farthest-side {
-    /* 여기에 작성해보세요:) */
+.farthest-side {  background-image:
+    radial-gradient(farthest-side at 60% 55% , blue, green, yellow, black );
+
+    
 }
 
 
