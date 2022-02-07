@@ -16,27 +16,26 @@ header {
 header #gnbLogo {
     width: 240px;
     height: 90px;
-    background: url(../img/logo.png) no-repeat left center;
+    background: url(../img/logo\ \(1\).png);
     background-size: auto 90px;
-    text-indent:-9999px;
-
+    text-indent: -9999px;
 }
 
-header #gnbLogo a{
+header #gnbLogo a {
     display: block;
     height: 100%;
 }
 
-nav ul.gnb { list-style-type:none ; height: 90px;}
+nav ul.gnb { list-style-type:  none ; height: 90px;}
 nav ul.gnb li {
     display: inline-block;
     height: 90px;
     padding: 30px;
     box-sizing: border-box;
-    font-size: 1.06rem;
+    font-size: 1.6rem;
 }
 
-nav ul.gnb li a {
+header a {
     text-decoration: none;
     color: black;
     font-family: 'Do Hyeon', sans-serif;
