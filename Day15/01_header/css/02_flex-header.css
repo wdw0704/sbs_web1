@@ -18,16 +18,15 @@ header #gnbLogo {
     height: 90px;
     background: url(../img/logo\ \(1\).png);
     background-size: auto 90px;
-    text-indent:-9999px;
-
+    text-indent: -9999px;
 }
 
-header #gnbLogo a{
+header #gnbLogo a {
     display: block;
     height: 100%;
 }
 
-nav ul.gnb { list-style-type:none ; height: 90px;}
+nav ul.gnb { list-style-type:  none ; height: 90px;}
 nav ul.gnb li {
     display: inline-block;
     height: 90px;
