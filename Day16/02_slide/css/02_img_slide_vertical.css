@@ -9,10 +9,20 @@ section.slide {
 
 section.slide ul {
     /* 여기에 작성해보세요:) */
+    list-style-type: none;
+    position: absolute;
+    animation-name: slide;
+    animation-delay: 1s;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes slide {
     /* 여기에 작성해보세요:) */
+    0% { top: 0;}
+    33% { top: -600px;}
+    66% { top: -1200px;}
+    100% { top: 0;}
 }
 
 section.slide ul li {
